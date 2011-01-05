@@ -1,1 +1,11 @@
+Author: Ian Gilham
+License: Public domain
+
+
+COPYING
+
+This software is placed in the public domain. You may use, reuse, edit or publish it in whatever manner you wish.
+
+This software is provided 'as-is' with no warranty of any kind.
+
 ParallelMap is a simple implementation of a classic Map function in C sharp, using the Task Parallel Library to implement the function as an extension method on IEnumerable<T>, making it as generic as possible.
