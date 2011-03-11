@@ -64,12 +64,8 @@ namespace IanGilham.ParallelUtils
     /// creating threads will be greater than the time saved
     /// by executing them in parallel.
     /// 
-    /// I have tested this code only with Visual Studio 2005
-    /// under Windows XP.  I'll assume that no other compiler
-    /// or environment will work, but I don't actually know.
-    /// 
     /// For more information, and for the sources of inspiration
-    /// I used in writing this code:
+    /// used in the original version:
     /// 
     /// http://www.ookii.org/showpost.aspx?post=8
     /// 
@@ -84,8 +80,6 @@ namespace IanGilham.ParallelUtils
     /// http://msdn.microsoft.com/msdnmag/issues/06/09/CLRInsideOut/default.aspx
     /// 
     /// http://en.wikipedia.org/wiki/MapReduce
-    /// 
-    /// http://www.codethinked.com/category/Functional-Programming-Series.aspx?page=2
     /// 
     /// </summary>
     public static class Extensions
@@ -126,8 +120,6 @@ namespace IanGilham.ParallelUtils
                 }
             }
         }
-
-        //public delegate TResult Operation<TSource, TResult>(TSource source);
 
         /// <summary>
         /// Extension method to apply a simple map function to an IEnumerable using the Task Parallel Library.
